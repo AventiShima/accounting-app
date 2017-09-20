@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Accounting App</title>
+        <link rel="stylesheet" href="style.css" type="text/css" />
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <h1>Current Balance: $<span id="currentBalDisplay">0</span></h1>
+        <select id="change">
+            <option>+</option>
+            <option>-</option>
+        </select>
+        <input type="number" id="newBal" placeholder="Type balance change here."/>
+        <input type="text" id="newAction" placeholder="Type action here."/>
+        <button id="confirm">Confirm</button>
+        <table>
+            <thead>
+                <tr>
+                    <th>Balance #</th>
+                    <th>Previous Balance</th>
+                    <th>Balance Change</th>
+                    <th>Updated Balance</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody>
+            </tbody>
+        </table>
+        <script type="text/javascript" src="app.js"></script>
+    </body>
+</html>
